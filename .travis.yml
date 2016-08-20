@@ -1,0 +1,27 @@
+---
+git:
+  depth: 1
+sudo: false
+cache:
+  directories:
+  - node_modules
+
+language: node_js
+node_js:
+- "stable"
+
+env:
+  global:
+    - COVERAGE=false
+
+matrix:
+  include:
+    - node_js: "stable"
+      env: COVERAGE=true
+
+before_install:
+  - "[ $COVERAGE == false ] || npm install coveralls"
+
+after_script:
+  - "[ $COVERAGE == false ] || npm run coverage"
+  - "[ $COVERAGE == false ] || cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
