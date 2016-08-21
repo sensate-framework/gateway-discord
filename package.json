@@ -13,9 +13,9 @@
     "postpublish": "greenkeeper-postpublish",
     "prepublish": "npm run build"
   },
-  "repository": "sensate-framework/sensate",
-  "bugs": "https://github.com/sensate-framework/sensate/issues",
-  "homepage": "https://github.com/sensate-framework/sensate#readme",
+  "repository": "sensate-framework/gateway-discord",
+  "bugs": "https://github.com/sensate-framework/gateway-discord/issues",
+  "homepage": "https://github.com/sensate-framework/gateway-discord#readme",
   "author": "Nico Hämäläinen <nico@sizeof.io>",
   "keywords": [
     "sensate",
