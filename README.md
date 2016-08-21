@@ -16,5 +16,5 @@ Please open any issues or send pull requests and I will look through them.
 [npm-image]: http://img.shields.io/npm/v/@sensate/gateway-discord.svg
 [travis-url]: http://travis-ci.org/sensate-framework/gateway-discord
 [travis-image]: http://travis-ci.org/sensate-framework/gateway-discord.svg?branch=master
-[cov-url]: https://codecov.io/gh/sensate-framework/gateway-discord
-[cov-image]: https://codecov.io/gh/sensate-framework/gateway-discord/branch/master/graph/badge.svg
+[cov-url]: https://coveralls.io/github/sensate-framework/gateway-discord?branch=master
+[cov-image]: https://coveralls.io/repos/github/sensate-framework/gateway-discord/badge.svg?branch=master
