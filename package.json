@@ -66,6 +66,6 @@
   },
   "dependencies": {
     "@sensate/sensate": "*",
-    "discord.js": "^8.1.0"
+    "discord.js": "^10.0.1"
   }
 }
